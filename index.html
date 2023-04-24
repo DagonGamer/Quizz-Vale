@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quizz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="Preguntas">
+
+        
+
+    </div>
+
+    <div class="Alert">
+        <p>Estás completamente seguro??</p>
+        <button onclick="alert('Este sitio quiere hacerte un quizz del parque, ten cuidado ya que si fallas alguna pregunta terminará el juego'); event.target.style.filter = 'brightness(0.5)'; event.target.parentNode.style.left = '200%'; setTimeout(() => event.target.parentNode.remove(), 5000)">Sii, déjame tranquilo</button>
+    </div>
+
+    <div class="Alert">
+        <p>Tienes claro que estás seguro??</p>
+        <button onclick="event.target.parentNode.style.left = '200%'; event.target.style.filter = 'brightness(0.5)'; setTimeout(() => event.target.parentNode.remove(), 5000)">Sii</button>
+    </div>
+
+    <div class="Alert">
+        <p>Vas a empezar la prueba 2, si fallas estás fuera, quieres empezarla?</p>
+        <button onclick="event.target.parentNode.style.left = '200%'; event.target.style.filter = 'brightness(0.5)'; setTimeout(() => event.target.parentNode.remove(), 5000)">Ya lo sé, si quiero empezarla</button>
+    </div>
+
+    <div class="Alert">
+        <div>
+            <p style="font-size: calc( min(30vh, 2rem) * 1.5 );"><b>PRUEBA 2</b></p>
+            <p>Un paseo por el parque</p>
+        </div>
+        <button onclick="event.target.parentNode.style.left = '200%'; event.target.style.filter = 'brightness(0.5)'; setTimeout(() => event.target.parentNode.remove(), 5000)">Empezar</button>
+    </div>
+
+    <script src="Quizz-Valeriano.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
