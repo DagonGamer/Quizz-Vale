@@ -34,24 +34,24 @@ div.Alert {
 }
 
 div.Alert p {
-    text-align: center;
-    color: var(--Texto);
-    font-size: min(30vh, 2rem);
-    margin: 0px;
-    padding: 0px min(30%, 2rem);
+    text-align: center !important;
+    color: var(--Texto) !important;
+    font-size: min(30vh, 2rem) !important;
+    margin: 0px !important;
+    padding: 0px min(30%, 2rem) !important;
 }
 
 div.Alert button {
-    text-align: center;
-    color: var(--Texto);
-    height: min(30vh, 2.5rem);
-    padding: calc( min(30vh, 2rem) / 4 ) 0px;
-    width: min(60vw, 20rem);
-    font-size: calc( min(30vh, 2rem) / 2 );
-    background: var(--Secundario);
-    border-radius: calc( min(30vh, 2rem) / 8 );
-    border: none;
-    margin: auto;
+    text-align: center !important;
+    color: var(--Texto) !important;
+    height: min(30vh, 2.5rem) !important;
+    padding: calc( min(30vh, 2rem) / 4 ) 0px !important;
+    width: min(60vw, 20rem) !important;
+    font-size: calc( min(30vh, 2rem) / 2 ) !important;
+    background: var(--Secundario) !important;
+    border-radius: calc( min(30vh, 2rem) / 8 ) !important;
+    border: none !important;
+    margin: auto !important;
 }
 
 div.Preguntas > div {

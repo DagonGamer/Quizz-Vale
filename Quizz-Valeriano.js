@@ -27,5 +27,15 @@ let Preguntas = [
         Tipo: "Quizz",
         Incorrectas: ["1.120.000 €", "975.000 €", "775.000 €"],
         Respuesta: "820.000 €",
-    }
+    },
+    {
+        Enunciado: "Acabas de finalizar la prueba, no está perfecto así que ya sabes lo que hay",
+        Tipo: "Info",
+        Respuesta: "Recurrir",
+    },
+    {
+        Enunciado: "Algunos fallos pueden ocurrir siempre que jures que no volverá a pasar",
+        Tipo: "Info",
+        Respuesta: "Graciass",
+    },
 ]
