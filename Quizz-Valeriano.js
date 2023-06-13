@@ -38,4 +38,9 @@ let Preguntas = [
         Tipo: "Info",
         Respuesta: "Graciass",
     },
+    {
+        Enunciado: "El 14 tendrás una nueva carta esperándote",
+        Tipo: "Info",
+        Respuesta: "FIN",
+    },
 ]
