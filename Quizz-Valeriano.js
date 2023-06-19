@@ -39,7 +39,7 @@ let Preguntas = [
         Respuesta: "Graciass",
     },
     {
-        Enunciado: "El 16 tendrás una nueva carta esperándote",
+        Enunciado: "Has pasado la prueba, a sexta mañana en la hora de primero de bachillerato pregunta si Isabel Cerdal, la enfermera que llevó la vacuna a América, tuvo hijos.",
         Tipo: "Info",
         Respuesta: "FIN",
     },
